@@ -17,7 +17,7 @@ A comprehensive Islamic lifestyle companion app built with React Native and Expo
 - 🕋 **Quran**: Full Quran with Arabic text, translations (multi-language), and background audio.
 - 🕌 **Mosque Finder**: Locate nearby mosques using your device location.
 - 💰 **Zakat Calculator**: Calculate your zakat easily based on gold, cash, and other assets.
-- 📢 **Referral System**: Influencer dashboard for tracking clicks, registrations, and conversions.
+
 
 
 ## Privacy & Security
