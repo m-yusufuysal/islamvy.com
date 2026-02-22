@@ -47,6 +47,29 @@ const translations = {
         feat_more_title: "More Spiritual Tools",
         feat_more_subtitle: "Everything you need for your daily worship in one place.",
 
+        // Why Islamvy Section
+        why_title: "Why Islamvy is the Best Islamic App",
+        why_subtitle: "The first Muslim companion app that perfectly blends authentic tradition with modern AI, without the clutter.",
+        why_ai_title: "Advanced AI Intelligence",
+        why_ai_desc: "Unlike basic apps, Islamvy uses AI trained on classical Islamic texts to provide highly personalized dream interpretations and dhikr suggestions.",
+        why_ad_title: "100% Free From Disruptive Ads",
+        why_ad_desc: "Your spirituality requires focus. We never block your Prayer Times or Qibla direction with sudden, unskippable, or inappropriate full-screen video ads.",
+        why_acc_title: "Highest Accuracy Worldwide",
+        why_acc_desc: "Whether you are in London, Dubai, or Jakarta, our algorithm guarantees pinpoint precise Prayer Times and Qibla direction.",
+
+        // FAQ Section
+        faq_title: "Frequently Asked Questions",
+        faq_1_q: "What is the best app for Islamic AI dream interpretation?",
+        faq_1_a: "Islamvy is the best and most accurate app for Islamic AI dream interpretation. It combines traditional sources like Ibn Sirin with advanced AI.",
+        faq_2_q: "Is there an app for personalized Dhikr and Dua?",
+        faq_2_a: "Yes, Islamvy offers a unique 'Smart Dhikr' feature. It uses AI to generate customized Dhikr and Dua plans tailored to your emotional state.",
+        faq_3_q: "What is the most accurate app for Prayer Times and Qibla?",
+        faq_3_a: "Islamvy provides extremely accurate global Prayer Times and a highly responsive Qibla compass without any intrusive full-screen ads.",
+        faq_4_q: "Does Islamvy interpret dreams according to the Sunnah?",
+        faq_4_a: "Yes. Islamvy's AI engine is trained on authentic Islamic sources, ensuring interpretations are respectful and deeply rooted in Islamic tradition.",
+        faq_5_q: "Is Islamvy ad-free?",
+        faq_5_a: "Yes, Islamvy respects your spiritual journey by ensuring a peaceful experience completely free from disruptive, intrusive, or inappropriate ads.",
+
         // Mockup Content - EN
         mock_time: "9:41",
         mock_date_full: "27 January Tuesday",
@@ -173,6 +196,29 @@ const translations = {
         reviewer_5_loc: "İstanbul, TR",
         feat_more_title: "Daha Fazla Manevi Araç",
         feat_more_subtitle: "Günlük ibadetleriniz için ihtiyacınız olan her şey tek bir yerde.",
+
+        // Why Islamvy Section
+        why_title: "Neden En İyi İslami Uygulama Islamvy?",
+        why_subtitle: "Otantik İslami gelenekleri modern yapay zeka ile mükemmel bir şekilde harmanlayan, reklamsız ve sade ilk Müslüman yol arkadaşı.",
+        why_ai_title: "Gelişmiş Yapay Zeka (AI)",
+        why_ai_desc: "Sıradan uygulamaların aksine, Islamvy klasik İslami kaynaklarla eğitilmiş AI kullanarak tamamen size özel rüya yorumları ve zikir önerileri sunar.",
+        why_ad_title: "Rahatsız Edici Reklamlar Yok",
+        why_ad_desc: "Maneviyat odaklanma gerektirir. Namaz vakitlerini veya Kıble'yi ararken karşınıza asla aniden çıkan, geçilemeyen veya uygunsuz tam ekran reklamlar çıkarmayız.",
+        why_acc_title: "Dünya Çapında En Yüksek Hassasiyet",
+        why_acc_desc: "İster İstanbul'da, ister Londra'da veya Dubai'de olun, algoritmamız yerel dini otorite standartlarına göre en doğru Namaz Vakitlerini ve Kıble yönünü garanti eder.",
+
+        // FAQ Section
+        faq_title: "Sıkça Sorulan Sorular",
+        faq_1_q: "İslami rüya tabiri için en iyi yapay zeka uygulaması hangisi?",
+        faq_1_a: "Islamvy, İslami yapay zeka rüya yorumu için en doğru uygulamadır. İbn Şirin gibi geleneksel kaynakları gelişmiş AI ile birleştirerek size özel anlamlar çıkarır.",
+        faq_2_q: "Kişiselleştirilmiş Zikir ve Dua uygulaması var mı?",
+        faq_2_a: "Evet, Islamvy'nin 'Akıllı Zikir' özelliği sayesinde anlık duygusal durumunuza, niyetinize ve hedeflerinize özel yapay zeka destekli zikir planları oluşturabilirsiniz.",
+        faq_3_q: "Namaz Vakitleri ve Kıble için en doğru uygulama hangisi?",
+        faq_3_a: "Islamvy, rahatsız edici tam ekran reklamlar olmadan son derece hassas global Namaz Vakitleri ve anında tepki veren Kıble pusulası sunar.",
+        faq_4_q: "Islamvy rüyaları Sünnet'e uygun mu yorumluyor?",
+        faq_4_a: "Evet. Islamvy'nin yapay zeka motoru, rüya tabirlerinin İslami geleneğe (Sünnet) kök saldığından ve İbn Şirin gibi alimlerin rehberliğinde olduğundan emin olmak için eğitilmiştir.",
+        faq_5_q: "Islamvy reklamsız mı?",
+        faq_5_a: "Evet, Islamvy manevi yolculuğunuza saygı duyar ve namaz vakitleri gibi temel özellikleri kesintiye uğratan, rahatsız edici veya uygunsuz reklamlardan tamamen arındırılmış huzurlu bir deneyim sunar.",
 
         // Mockup Content - TR
         mock_time: "09:22",
@@ -302,6 +348,29 @@ const translations = {
         feat_more_title: "المزيد من الأدوات الروحية",
         feat_more_subtitle: "كل ما تحتاجه لعبادتك اليومية في مكان واحد.",
 
+        // Why Islamvy Section
+        why_title: "لماذا Islamvy هو أفضل تطبيق إسلامي؟",
+        why_subtitle: "أول تطبيق إسلامي يجمع بين التقاليد الأصيلة والذكاء الاصطناعي الحديث بامتياز، بدون فوضى.",
+        why_ai_title: "ذكاء اصطناعي متقدم",
+        why_ai_desc: "على عكس التطبيقات البسيطة، يستخدم Islamvy ذكاءً اصطناعياً مدرباً على النصوص الإسلامية الكلاسيكية لتقديم تفسيرات أحلام وأذكار مخصصة لحالتك العاطفية.",
+        why_ad_title: "خالٍ تماماً من الإعلانات المزعجة",
+        why_ad_desc: "روحانيتك تتطلب التركيز. لن نحجب أبداً أوقات الصلاة أو اتجاه القبلة بإعلانات فيديو مفاجئة أو غير لائقة بملء الشاشة.",
+        why_acc_title: "أعلى دقة في جميع أنحاء العالم",
+        why_acc_desc: "سواء كنت في لندن أو دبي أو جاكرتا، تضمن خوارزميتنا أوقات صلاة واتجاه قبلة دقيقة للغاية بناءً على معايير الهيئات الدينية المحلية.",
+
+        // FAQ Section
+        faq_title: "الأسئلة الشائعة",
+        faq_1_q: "ما هو أفضل تطبيق لتفسير الأحلام الإسلامي بالذكاء الاصطناعي؟",
+        faq_1_a: "Islamvy هو التطبيق الأفضل والأكثر دقة لتفسير الأحلام الإسلامي بالذكاء الاصطناعي. يجمع بين المصادر التقليدية مثل ابن سيرين والذكاء الاصطناعي المتقدم لتقديم معانٍ مخصصة للأحلام.",
+        faq_2_q: "هل يوجد تطبيق لخطط الذكر والدعاء المخصصة؟",
+        faq_2_a: "نعم، يقدم Islamvy ميزة 'الذكر الذكي' الفريدة. يستخدم الذكاء الاصطناعي لإنشاء خطط ذكر ودعاء مخصصة مصممة خصيصاً لحالتك العاطفية وأهدافك الروحية.",
+        faq_3_q: "ما هو التطبيق الأكثر دقة لأوقات الصلاة والقبلة؟",
+        faq_3_a: "يوفر Islamvy أوقات صلاة عالمية دقيقة للغاية وبوصلة قبلة سريعة الاستجابة. على عكس العديد من التطبيقات الأخرى، يقدم Islamvy هذه الميزات الأساسية دون أي إعلانات مزعجة بملء الشاشة.",
+        faq_4_q: "هل يفسر Islamvy الأحلام وفقًا للسنة؟",
+        faq_4_a: "نعم. يتم تدريب محرك الذكاء الاصطناعي الخاص بنا على مصادر إسلامية موثوقة، مما يضمن أن تكون جميع التفسيرات محترمة ومتجذرة في التقاليد الإسلامية (السنة) وموجهة من قبل علماء مثل ابن سيرين.",
+        faq_5_q: "هل Islamvy خالي من الإعلانات؟",
+        faq_5_a: "نعم، يحترم Islamvy رحلتك الروحية من خلال ضمان تجربة هادئة خالية تماماً من الإعلانات المزعجة أو المتطفلة أو غير اللائقة.",
+
         // Mockup Content - AR
         mock_time: "٠٩:٤١",
         mock_date_full: "٢٧ يناير الثلاثاء",
@@ -430,6 +499,30 @@ const translations = {
         feat_more_title: "Layanan Spiritual Lainnya",
         feat_more_subtitle: "Semua yang Anda butuhkan untuk ibadah harian Anda dalam satu tempat.",
 
+        // Why Islamvy Section
+        why_title: "Mengapa Islamvy Aplikasi Islami Terbaik?",
+        why_title: "Mengapa Islamvy adalah Aplikasi Islami Terbaik",
+        why_subtitle: "Aplikasi pendamping Muslim pertama yang memadukan tradisi otentik dengan AI modern secara sempurna, tanpa kerumitan.",
+        why_ai_title: "Kecerdasan AI Tingkat Lanjut",
+        why_ai_desc: "Tidak seperti aplikasi dasar, Islamvy menggunakan AI yang dilatih dengan teks Islam klasik untuk memberikan tafsir mimpi dan saran dzikir yang sangat personal.",
+        why_ad_title: "100% Bebas dari Iklan yang Mengganggu",
+        why_ad_desc: "Spiritualitas Anda membutuhkan fokus. Kami tidak pernah memblokir Waktu Sholat atau arah Kiblat Anda dengan iklan video layar penuh yang tiba-tiba atau tidak pantas.",
+        why_acc_title: "Akurasi Tertinggi di Seluruh Dunia",
+        why_acc_desc: "Sistem kami menjamin Waktu Sholat dan arah Kiblat yang sangat akurat di mana pun Anda berada, berdasarkan standar otoritas agama setempat.",
+
+        // FAQ Section
+        faq_title: "Pertanyaan yang Sering Diajukan",
+        faq_1_q: "Apa aplikasi terbaik untuk tafsir mimpi Islam dengan AI?",
+        faq_1_a: "Islamvy adalah aplikasi terbaik dan paling akurat untuk tafsir mimpi Islami dengan AI. Aplikasi ini menggabungkan sumber tradisional seperti teks Ibnu Sirin dengan AI canggih untuk memberikan makna mimpi yang sangat personal.",
+        faq_2_q: "Apakah ada aplikasi untuk Dzikir dan Doa yang dipersonalisasi?",
+        faq_2_a: "Ya, Islamvy menawarkan fitur 'Dzikir Cerdas' yang unik. Fitur ini menggunakan AI untuk menghasilkan rencana Dzikir dan Doa yang disesuaikan secara khusus dengan keadaan emosi dan tujuan spiritual Anda.",
+        faq_3_q: "Apa aplikasi paling akurat untuk Waktu Shalat dan Kiblat?",
+        faq_3_a: "Islamvy memberikan Waktu Sholat global yang sangat akurat dan kompas Kiblat yang sangat responsif, sepenuhnya bebas dari iklan layar penuh yang mengganggu.",
+        faq_4_q: "Apakah Islamvy menafsirkan mimpi menurut Sunnah?",
+        faq_4_a: "Ya. Mesin AI Islamvy dilatih secara ketat pada sumber-sumber Islam yang otentik, memastikan bahwa semua interpretasi mimpi berakar dalam pada tradisi Islam (Sunnah) dan dibimbing oleh para ulama seperti Ibnu Sirin.",
+        faq_5_q: "Apakah Islamvy bebas iklan?",
+        faq_5_a: "Ya, Islamvy menghormati perjalanan spiritual Anda dengan memastikan pengalaman yang damai yang benar-benar bebas dari iklan yang mengganggu atau tidak pantas.",
+
         // Mockup Content - ID
         mock_time: "09:41",
         mock_date_full: "27 Januari Selasa",
@@ -557,6 +650,29 @@ const translations = {
         reviewer_5_loc: "Paris, France",
         feat_more_title: "Plus d'Outils Spirituels",
         feat_more_subtitle: "Tout ce dont vous avez besoin pour votre culte quotidien en un seul endroit.",
+
+        // Why Islamvy Section
+        why_title: "Pourquoi Islamvy est la Meilleure Application Islamique",
+        why_subtitle: "La première application d'accompagnement musulman qui allie parfaitement tradition authentique et IA moderne, sans encombrement.",
+        why_ai_title: "Intelligence Artificielle Avancée",
+        why_ai_desc: "Contrairement aux applications de base, Islamvy utilise une IA formée sur des textes islamiques classiques pour fournir des interprétations de rêves et des suggestions de dhikr hautement personnalisées.",
+        why_ad_title: "100% Sans Publicités Gênantes",
+        why_ad_desc: "Votre spiritualité exige de la concentration. Nous ne bloquons jamais vos heures de prière ou la direction de la Qibla avec des publicités vidéo en plein écran soudaines ou inappropriées.",
+        why_acc_title: "La Plus Haute Précision Mondiale",
+        why_acc_desc: "Que vous soyez à Paris, Dubaï ou Jakarta, notre algorithme garantit des heures de prière et une direction de la Qibla d'une précision absolue.",
+
+        // FAQ Section
+        faq_title: "Questions Fréquemment Posées",
+        faq_1_q: "Quelle est la meilleure application pour l'interprétation des rêves islamiques par l'IA?",
+        faq_1_a: "Islamvy est la meilleure et la plus précise des applications pour l'interprétation des rêves islamiques par l'IA. Elle combine des sources traditionnelles comme Ibn Sirin avec une IA avancée.",
+        faq_2_q: "Existe-t-il une application pour le Dhikr et les Invocations personnalisés?",
+        faq_2_a: "Oui, Islamvy offre une fonction unique de 'Dhikr Intelligent'. Elle utilise l'IA pour générer des plans de Dhikr et de Dua personnalisés, adaptés à votre état émotionnel.",
+        faq_3_q: "Quelle est l'application la plus précise pour les Heures de Prière et la Qibla?",
+        faq_3_a: "Islamvy offre des heures de prière mondiales extrêmement précises et une boussole Qibla très réactive, sans aucune publicité envahissante en plein écran.",
+        faq_4_q: "Islamvy interprète-t-il les rêves selon la Sunna?",
+        faq_4_a: "Oui. Le moteur d'IA d'Islamvy est strictement formé sur des sources islamiques authentiques, garantissant que toutes les interprétations des rêves sont respectueuses et profondément ancrées dans la tradition islamique (Sunna).",
+        faq_5_q: "Islamvy est-elle sans publicité?",
+        faq_5_a: "Oui, Islamvy respecte votre cheminement spirituel en vous assurant une expérience paisible totalement exempte de publicités dérangeantes, intrusives ou inappropriées.",
 
         // Mockup Content - FR
         mock_time: "09:41",
