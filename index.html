@@ -933,6 +933,39 @@
             easing: 'ease-out-cubic'
         });
     </script>
+
+    <!-- Islamvy Analytics Tracking -->
+    <script>
+        (function () {
+            try {
+                var w = window.innerWidth;
+                var device = w < 768 ? 'mobile' : (w < 1024 ? 'tablet' : 'desktop');
+                var ua = navigator.userAgent;
+                var browser = /Chrome/.test(ua) ? 'Chrome' : /Firefox/.test(ua) ? 'Firefox' : /Safari/.test(ua) ? 'Safari' : /Edge/.test(ua) ? 'Edge' : 'Other';
+                var os = /iPhone|iPad/.test(ua) ? 'iOS' : /Android/.test(ua) ? 'Android' : /Mac/.test(ua) ? 'macOS' : /Win/.test(ua) ? 'Windows' : /Linux/.test(ua) ? 'Linux' : 'Other';
+                var params = new URLSearchParams(window.location.search);
+                var sid = sessionStorage.getItem('_iv_sid');
+                if (!sid) { sid = Math.random().toString(36).substr(2, 12) + Date.now().toString(36); sessionStorage.setItem('_iv_sid', sid); }
+                fetch('https://rclgrmlqfrndlhcufaav.supabase.co/functions/v1/track-visit', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        page: window.location.pathname,
+                        referrer: document.referrer || null,
+                        device: device,
+                        browser: browser,
+                        os: os,
+                        language: (navigator.language || 'en').split('-')[0],
+                        screenWidth: w,
+                        sessionId: sid,
+                        utm_source: params.get('utm_source') || null,
+                        utm_medium: params.get('utm_medium') || null,
+                        utm_campaign: params.get('utm_campaign') || null
+                    })
+                }).catch(function () { });
+            } catch (e) { }
+        })();
+    </script>
 </body>
 
 </html>
