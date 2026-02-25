@@ -1081,7 +1081,10 @@
                 if (!sid) { sid = Math.random().toString(36).substr(2, 12) + Date.now().toString(36); sessionStorage.setItem('_iv_sid', sid); }
                 fetch('https://rclgrmlqfrndlhcufaav.supabase.co/functions/v1/track-visit', {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJjbGdybWxxZnJuZGxoY3VmYWF2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgyOTczMzAsImV4cCI6MjA4Mzg3MzMzMH0.bMhef10lE-stCXBQ9fMPpnIIC3cwqySIG5Lt_N_NqYA'
+                    },
                     body: JSON.stringify({
                         page: window.location.pathname,
                         referrer: document.referrer || null,
